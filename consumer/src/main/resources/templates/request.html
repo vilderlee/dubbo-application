@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/loadJarClass">
+    <table>
+        <tr>
+            <td><label>调用接口全类名</label></td>
+            <td>
+                <input type="text" name="interfaceName"/>
+            </td>
+            <td><label>调用方法名称</label></td>
+            <td>
+                <input type="text" name="methodInvokeName"/>
+            </td>
+            <td><label>请求报文全类名</label></td>
+            <td>
+                <input type="text" name="requestEntityName"/>
+            </td>
+            <td><label>注册中心地址</label></td>
+            <td>
+                <input type="text" name="registryAddress"/>
+            </td>
+        </tr>
+    </table>
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>
